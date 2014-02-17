@@ -1,0 +1,34 @@
+simple-1.1="$HOME/src/git/plx/simple/java" CD=. in=onload.vim fmt="unix" enc="utf8" {
+ docs=docs {
+ }
+ resources=res {
+ }
+ source=src/sf {
+  lang=lang {
+   constants=. {
+    ERROR.java
+    ENC.java
+   }
+   classes=. {
+    arrays.java
+    numbers.java
+    strings.java
+   }
+  }
+ }
+ makefiles=. {
+  make win=. fmt="dos" {
+   make.jse
+  }
+  make nix=. fmt="unix" {
+   make.inc
+   Makefile
+  }
+ }
+ LICENSE
+ README.md
+ onload.vim
+ doxyfile
+ changes
+ ChangeLog
+}
