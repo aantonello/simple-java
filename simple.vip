@@ -1,4 +1,4 @@
-simple-1.1="$HOME/src/git/plx/simple/java" CD=. in=onload.vim fmt="unix" enc="utf8" {
+simple="$WORKHOME/plx/src/simple/java" CD=. in=onload.vim fmt="unix" enc="utf8" {
  docs=docs {
  }
  resources=res {
@@ -17,9 +17,6 @@ simple-1.1="$HOME/src/git/plx/simple/java" CD=. in=onload.vim fmt="unix" enc="ut
   }
  }
  makefiles=. {
-  make win=. fmt="dos" {
-   make.jse
-  }
   make nix=. fmt="unix" {
    make.inc
    Makefile
@@ -29,6 +26,5 @@ simple-1.1="$HOME/src/git/plx/simple/java" CD=. in=onload.vim fmt="unix" enc="ut
  README.md
  onload.vim
  doxyfile
- changes
  ChangeLog
 }

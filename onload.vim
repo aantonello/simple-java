@@ -13,9 +13,9 @@ let g:did_simple_java = 1
 
 "" ApplyTemplate configuration
 let g:atpl_UsersList['@AUTHORMAIL@'] = '<aantonello@paralaxe.com.br>'
-let g:atpl_UsersList['@PROJECT@']    = 'Simple Framework'
+let g:atpl_UsersList['@PROJECT@']    = 'Simple (Java) Framework'
 let g:atpl_UsersList['@PACKAGE@']    = 'sf'
-let g:atpl_UsersList['@VERSION@']    = '1.1'
+let g:atpl_UsersList['@VERSION@']    = '2.5'
 let g:atpl_UsersList['@OWNER@']      = 'Paralaxe Tecnologia'
 
 "" Special highlighting configuration
@@ -33,5 +33,4 @@ call javacomplete#SetSearchdeclMethod(4)
 "" Special group to configure new files
 augroup SIMPLE
     au BufNewFile *.java set syntax=java.doxygen nobomb
-    au BufNewFile,BufRead changes setl tw=72
 augroup END

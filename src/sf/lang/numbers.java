@@ -4,7 +4,7 @@
  *
  * \author Alessandro Antonello <aantonello@paralaxe.com.br>
  * \date   setembro 11, 2013
- * \since  Simple Framework 1.1
+ * \since  Simple Framework 2.5
  * \version 2.0
  *
  * \par License
@@ -13,7 +13,7 @@
 package sf.lang;
 
 /**
- * A static class to work with numbers and a like.
+ * A static class to work with numbers.
  *//* --------------------------------------------------------------------- */
 public final class numbers
 {

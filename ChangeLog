@@ -1,15 +1,3 @@
-2013-09-11  Alessandro <aantonello@paralaxe.com.br>
+Build: 1	Version: 2.5	Branch: Master
 
-	* numbers.java: Static class with public functions to work with integral
-	numbers.
-
-2013-08-26  Alessandro <aantonello@paralaxe.com.br>
-
-	* strings.java: Static class with public functions to work with String and
-	character types.
-
-	* ENC.java: Class with encoding constants.
-
-	* ERROR.java: Class with errors constants.
-
-	* ChangeLog: Starting logging things.
+	* README.md: Updated.

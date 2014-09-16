@@ -4,7 +4,7 @@
  *
  * \author Alessandro Antonello <aantonello@paralaxe.com.br>
  * \date   agosto 26, 2013
- * \since  Simple Framework 1.1
+ * \since  Simple Framework 2.5
  * \version 1.0
  *
  * \par License

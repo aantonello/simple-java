@@ -73,12 +73,11 @@ $(OUTPUT) : $(TMPDIR) $(BINDIR)
 
 docs: $(DOCDIR)
 	( cat doxyfile ; echo "$(PROJECTNUMBER)" ; echo "$(TAGFILE)" ) | doxygen -
-	rm ./debug.txt
+	-@rm ./debug.txt
 
 install : $(JARDIR)
 	$(CP) $(COPY) $(OUTPUT) $(JARDIR)
 	$(CP) $(COPY) $(OUTDXT) $(PUBDIR)
 	$(CP) $(COPY) $(RESDIR) $(PUBDIR)
-	publish -doc plx/$(TARGET) -f -q
 
 
