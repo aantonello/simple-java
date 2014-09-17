@@ -73,11 +73,10 @@ $(OUTPUT) : $(TMPDIR) $(BINDIR)
 
 docs: $(DOCDIR)
 	( cat doxyfile ; echo "$(PROJECTNUMBER)" ; echo "$(TAGFILE)" ) | doxygen -
-	-@rm ./debug.txt
 
 install : $(JARDIR)
 	$(CP) $(COPY) $(OUTPUT) $(JARDIR)
-	$(CP) $(COPY) $(OUTDXT) $(PUBDIR)
+	$(CP) $(COPY) $(OUTDXT) $(JARDIR)
 	$(CP) $(COPY) $(RESDIR) $(PUBDIR)
 
 

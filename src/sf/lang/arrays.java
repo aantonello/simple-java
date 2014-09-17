@@ -12,12 +12,18 @@
  */
 package sf.lang;
 
+/* #imports {{{ */
 import java.util.Random;
 import java.lang.reflect.Array;
+/* }}} #imports */
 
 /**
- * Static class to help work with arrays of integral types.
- * The more change in this class is the use of generics for methods.
+ * \ingroup sf_lang
+ * Static class to help work with arrays of any type.
+ * The class has overloaded methods to deal with scalar types and a generic
+ * implementation to deal with object types of any kind. Some methods are safe
+ * to use even with \b null object references. Others are not. Please check
+ * the documentation of the method to see this differences.
  *//* --------------------------------------------------------------------- */
 public final class arrays
 {
@@ -314,7 +320,7 @@ public final class arrays
     /**
      * Copies data from one array to another.
      * \param dest The destination array.
-     * \param destStart The index where the copy should start overwrite the
+     * \param dstStart The index where the copy should start overwrite the
      * destination elements. If less than zero the function will fails.
      * \param src The source array.
      * \param srcStart The position on the \a src array to start copying

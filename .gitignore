@@ -1,8 +1,8 @@
 bin/
-help/
+docs/help/
+docs/html/
 
 .*.sw?
-changes
 
 *.class
 

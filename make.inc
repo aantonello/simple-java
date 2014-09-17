@@ -12,7 +12,7 @@ BINDIR = bin/jar
 TMPDIR = bin/tmp
 DOCDIR = docs/help
 RESDIR = res
-TARGET = sf.lang
+TARGET = simple
 APPVER = 2.5
 BUILD  = 1
 

@@ -1,19 +1,29 @@
 simple="$WORKHOME/plx/src/simple/java" CD=. in=onload.vim fmt="unix" enc="utf8" {
  docs=docs {
+  styles.css
  }
  resources=res {
  }
  source=src/sf {
   lang=lang {
+   _package.java
    constants=. {
     ERROR.java
     ENC.java
+    RUNTIME.java
    }
    classes=. {
     arrays.java
     numbers.java
     strings.java
    }
+  }
+  log=log {
+   debug.java
+  }
+  utils=utils {
+   SFDateTime.java
+   SFThread.java
   }
  }
  makefiles=. {
@@ -26,5 +36,6 @@ simple="$WORKHOME/plx/src/simple/java" CD=. in=onload.vim fmt="unix" enc="utf8" 
  README.md
  onload.vim
  doxyfile
+ simple.css
  ChangeLog
 }

@@ -12,16 +12,17 @@
 package sf.lang;
 
 /**
+ * \ingroup sf_lang
  * Declares all error constants used in this library.
  * This library doesn't throw exceptions. Instead, all possible failures are
  * returned in the form of error codes. Error codes are always less than zero
  * to differentiate them from others results.
  *
  * If the application needs to define its own set of error codes pay attention
- * to the limit value of ERROR#USER. Any error code defined out size this
+ * to the limit value of #USER. Any error code defined outside this
  * library must be less than this value.
  *//* --------------------------------------------------------------------- */
-public final class ERROR
+public interface ERROR
 {
     public static final int SUCCESS = 0;    /**< Means success or no error. */
     public static final int FAILED  = -1;   /**< Failure. Usually a exception. */

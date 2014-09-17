@@ -13,7 +13,16 @@
 package sf.lang;
 
 /**
+ * \ingroup sf_lang
  * A static class to work with numbers.
+ * At most this class has methods to pack high words and low words of numeric
+ * values or put it then together again. Also this class offers reverse the
+ * byte order of numerical values easy.
+ *
+ * One of the things that I miss in Java is the hability to use unsigned
+ * numbers. Becouse of this the \c numbers class has some methods to convert
+ * \b byte to \b short, \b short to \b int and \b int to \b long that always
+ * return positive values, regardless of the signal of the original value.
  *//* --------------------------------------------------------------------- */
 public final class numbers
 {
