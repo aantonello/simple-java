@@ -37,9 +37,13 @@ TAGFILE=GENERATE_TAGFILE=$(OUTDXT)
 # ----------------------------------------------------------------------------
 # FILES TO COMPILE
 # ----------------------------------------------------------------------------
-_FILES_=$(SRCDIR)/lang/ERROR.java\
-		$(SRCDIR)/lang/ENC.java\
-		$(SRCDIR)/lang/arrays.java\
-		$(SRCDIR)/lang/numbers.java\
-		$(SRCDIR)/lang/strings.java
+_LANG_=$(SRCDIR)/lang/ERROR.java\
+	$(SRCDIR)/lang/ENC.java\
+	$(SRCDIR)/lang/arrays.java\
+	$(SRCDIR)/lang/numbers.java\
+	$(SRCDIR)/lang/strings.java
+
+_UTILS_=$(SRCDIR)/utils/SFDateTime.java
+
+_FILES_=$(_LANG_) $(_UTILS_)
 

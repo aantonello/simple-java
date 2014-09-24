@@ -1,8 +1,3 @@
-Build: 1	Version: 2.5	Branch: Master
+Build: 2	Version: 2.5	Branch: Master
 
-	* sf.lang._package.java: New file.
-	* simple.css: Change styles of doxygen documentation. The original
-	file is in docs/styles.css.
-	* sf/lang/RUNTIME.java: New interface with constants.
-	* sf/utils/SFDateTime.java: New class. Incomplete.
-	* sf/log/debug.java: New class. Incomplete.
+	* sf/utils/SFDateTime.java: Initial implementation done.
